@@ -30,4 +30,4 @@ auth.set_access_token(CLIENT_TOKEN, CLIENT_SECRET)
 api = tweepy.API(auth)
 
 stream = tweepy.Stream(auth, l)
-stream.filter(track=['schnitzel', '#schnitzel', '#schnitzelbot'])
+stream.filter(track=['schnitzel', '#schnitzel', '#schnitzelbot', 'chicken fried', 'chicken-fried', 'chickenfried''])
